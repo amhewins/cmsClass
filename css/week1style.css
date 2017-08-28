@@ -1,0 +1,244 @@
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+.hero {
+  background-image: url('../images/superbowl3.jpg');
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.overlay {
+  margin-top: 0;
+  width: 100%;
+  height: 15%;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+}
+.headnav {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.headnav ul {
+  margin-top: 0px;
+}
+.headnav ul li {
+  display: inline-block;
+  padding-left: 10%;
+}
+.headnav ul a {
+  color: white;
+  margin-top: -10px;
+}
+img[src*="moore"] {
+  height: 5%;
+  width: 5%;
+  padding-left: 10%;
+}
+img[src*="call"] {
+  height: auto;
+  width: auto;
+}
+img[src*="search"] {
+  height: 2%;
+  width: 2%;
+  float: right;
+  padding-right: 3%;
+  padding-top: 3%;
+}
+.headnav .nav ul li a {
+  margin-top: -4%;
+}
+li {
+  list-style-type: none;
+}
+.nav {
+  margin-top: -10px;
+}
+#specials {
+  background-color: black;
+}
+.specialsWords {
+  color: white;
+  text-align: center;
+  font-size: 150%;
+}
+.specialsBlock {
+  background-color: white;
+  height: 130px;
+  width: 240px;
+}
+.specialsBlock h1 {
+  text-align: right;
+  font-size: 250%;
+  margin-bottom: 0px;
+  margin-right: 3%;
+  letter-spacing: 1px;
+}
+.specialsBlock p {
+  font-size: 120%;
+  margin-top: -30px;
+  margin-left: 5%;
+}
+.one {
+  float: left;
+  padding-left: 5%;
+}
+.two {
+  float: left;
+  padding-left: 5%;
+}
+.three {
+  float: left;
+  padding-left: 5%;
+}
+.four {
+  float: left;
+  padding-left: 5%;
+}
+.five {
+  clear: both;
+  float: left;
+  padding-left: 5%;
+}
+.six {
+  float: left;
+  padding-left: 5%;
+}
+.seven {
+  float: left;
+  padding-left: 5%;
+}
+.eight {
+  float: left;
+  padding-left: 5%;
+}
+.about {
+  background-color: white;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  float: left;
+}
+.about h1 {
+  font-size: 250%;
+}
+.about p {
+  font-size: 80%;
+  margin-right: 43%;
+}
+.button {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 14px 40px;
+  font-size: 90%;
+  margin-left: 45%;
+}
+input[type=text] {
+  padding-left: 10%;
+  padding-top: .4%;
+}
+form {
+  padding-left: 5%;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 40px;
+}
+.picture img {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+.newsletter {
+  color: white;
+  float: left;
+  background-color: #6d6d6d;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.newsletter p {
+  font-size: 75%;
+  margin-left: 5%;
+  margin-right: 55%;
+  margin-top: 0;
+  line-height: 18px;
+}
+.newsletter h3 {
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.newslinks {
+  float: right;
+  margin-top: -13%;
+  padding-top: 1%;
+}
+.newswords {
+  float: left;
+}
+.newsnav {
+  color: white;
+  float: left;
+}
+.newsnav ul a {
+  color: white;
+  text-decoration: none;
+}
+.newsnav h3 {
+  margin-left: 0;
+  margin-bottom: 2%;
+  text-decoration: underline;
+}
+.supportnav {
+  color: white;
+  float: left;
+}
+.supportnav ul a {
+  color: white;
+  text-decoration: none;
+}
+.supportnav h3 {
+  margin-left: 0;
+  margin-bottom: 2%;
+  text-decoration: underline;
+}
+.connectnav {
+  color: white;
+  float: left;
+}
+.connectnav ul a {
+  color: white;
+  text-decoration: none;
+}
+.connectnav h3 {
+  margin-left: 0;
+  margin-bottom: 2%;
+  text-decoration: underline;
+}
+.connectnav img {
+  width: 75%;
+  height: 75%;
+}
+footer {
+  background-color: black;
+  clear: both;
+  text-align: center;
+}
+footer img {
+  height: 3%;
+  width: 3%;
+  margin-left: -10%;
+}
+footer p {
+  color: white;
+  font-size: 50%;
+}
