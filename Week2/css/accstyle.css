@@ -1,0 +1,55 @@
+body {
+  background-color: #cac9c9;
+}
+.accordion {
+  margin-left: 25%;
+  margin-bottom: 5%;
+  background-color: #cac9c9;
+}
+button.accordion {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    text-align: left;
+    font-size: 150%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: #cac9c9;
+}
+div.panel {
+    background-color: white;
+    display: none;
+    width: 50%;
+    margin: 0 0 4% 25%;
+    border: 1px black solid;
+}
+div.panel p {
+  padding: 0 5%;
+}
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+button.learnbutton {
+  background-color: black;
+  color: white;
+  font-size: 90%;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 40px;
+  width: 50%;
+  height: 55px;
+  margin: 1% 0 5% 40%;
+}
