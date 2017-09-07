@@ -40,11 +40,25 @@
       </ul>
     </nav> <!--headnav-->
   </div> <!--overlay-->
+<!--
+  <header>
+     <button class="hamburger">&#9776;</button>
+     <button class="cross">&#735;</button>
+  </header> -->
 
   <div class="hero">
     <img src="images/superbowl3.jpg">
   </div>
-  
+<!--
+  <div class="menu">
+    <ul>
+      <a href="#about"><li>ABOUT</li></a>
+      <a href="#beverages"><li>BEVERAGES</li></a>
+      <a href="#specials"><li>SPECIALS</li></a>
+      <a href="#findus"><li>FIND US</li></a>
+    </ul>
+  </div> menu-->
+
   <div id="specials">
 
     <div class="whiteWords">
@@ -160,6 +174,25 @@
       <p>Nullam quis risus eget urna mollis ornare vel eu leo. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum.</p>
       <button class="learnbutton"><strong>Learn More</strong></button>
     </div>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+          /* Toggle between adding and removing the "active" class,
+          to highlight the button that controls the panel */
+          this.classList.toggle("active");
+
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+              panel.style.display = "none";
+          } else {
+              panel.style.display = "block";
+          }
+      }
+  } </script>
 
 </div> <!--more info-->
 
